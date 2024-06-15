@@ -75,9 +75,10 @@ export async function copyS3Folder(sourcePrefix: string, destinationPrefix: stri
     }
 }
 
-function writeFile(filePath: string, fileData: Buffer): Promise<void> {
+function writeFile(filePath: string, fileData: any ): Promise<void> {
     return new Promise(async (resolve, reject) => {
         await createFolder(path.dirname(filePath));
+        const dataBuffer = typeof fileData === 'string' ? Buffer.from(fileData, 'utf-8') : fileData;
         fs.writeFile(filePath, fileData, (err) => {
             if (err) {
                 reject(err)
