@@ -8,8 +8,12 @@ I have used `Monaco code editor` and `XtermJs` and `nodepty` to start pseudo ter
 
 the terminal is synchronized with my machine (through `xterm` and `nodepty`)
 <img src="/docs/terminal.png" alt="terminal"/>
+
 the ide is synchronized with backend ( `SocketIo` )
 <img src="/docs/ide.png" alt="ide"/>
+
+This is the current architecture representing starting of `websocket` and `requesting files`
+<img src="/docs/design.png" alt=design>
 
 Note: `nodepty` is not compatible on windows machine so I am using `WSL`, though some solutions are given 
      but not working in my case
