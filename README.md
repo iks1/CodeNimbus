@@ -1,4 +1,4 @@
-#Overview
+### Overview
 
 This is a subproject of a bigger project that I am working on, I am building it in `NodeJs` and `TypeScript` to test some things, the original project is being built in `Golang`
 
@@ -22,7 +22,7 @@ Note: `nodepty` is not compatible on windows machine so I am using `WSL`, though
 
  - Custom file Tree structure so that I can add and delete file from user Interface
  - I was trying to create file on backend dynamically but `wsl` is not 
-   allowing and at the same time I can not swith to windows since I am using `nodepty`
+   allowing and at the same time I can not switch to windows since I am using `nodepty`
  - Instead of giving access to my machine I might launch Docker inside Kubernetes and 
    give access to the user.
 
