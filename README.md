@@ -1,6 +1,6 @@
 ### Overview
 
-This is a subproject of a bigger project that I am working on, I am building it in `NodeJs` and `TypeScript` to test some things, the original project is being built in `Golang`
+This is a subproject of a bigger project that I and my friends are working on, I am building it in `NodeJs` and `TypeScript` to test some things, the original project is being built in `Golang`
 
 I have used `Monaco code editor` and `XtermJs` and `nodepty` to start pseudo terminals on backend. And a Websocket library `SocketIO` for synchronization and realtime updations of folder structures/ file updation on backend.
 
